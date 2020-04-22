@@ -1,0 +1,1 @@
+print((lambda f,i:f.reduce((lambda s,_:(lambda d,p,r:(lambda op:{'+':lambda a,b:a+b,'-':lambda a,b:a-b,'*':lambda a,b:a*b,'/':lambda a,b:a/b,}.get(op,lambda x,z:print('Incorrect input!')or exit()))(r)(p,d))(float(i.pop(0)),s,i.pop(0))),i,float(i.pop(0))))(__import__('functools'),__import__('sys').argv[1:]))
