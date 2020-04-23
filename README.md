@@ -1,5 +1,5 @@
 # Single Line RPN
-One of the shortest RPN calculator in 1 line; 308 characters
+One of the shortest RPN calculator in 1 line; 247 characters
 
 ## Usage
 ```shell script
