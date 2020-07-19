@@ -1,1 +1,1 @@
-print((lambda f,i:f.reduce((lambda s,_:(lambda d,t:{'+':lambda a,b:a+b,'-':lambda a,b:a-b,'*':lambda a,b:a*b,'/':lambda a,b:a/b}.get(t)(s,d))(float(i.pop(0)),i.pop(0))),i,float(i.pop(0))))(__import__('functools'),__import__('sys').argv[1:]+['']))
+print((lambda f,i:f.reduce((lambda s,_:(lambda d,t:{'+':lambda a,b:a+b,'-':lambda a,b:a-b,'*':lambda a,b:a*b,'/':lambda a,b:a/b}.get(t)(s,d))(float(i.pop(0)),i.pop(0))),i,float(i.pop(0))))(__import__('functools'),__import__('sys').argv[1:]+[0]))
